@@ -8,7 +8,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="{{ asset('storage/home-page') }}/assets/images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="{{ asset('storage/home-page') }}/assets/images/favicon1.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -204,7 +204,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="{{ asset('storage/home-page') }}/assets/images/f1.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/pady.jpeg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -224,7 +224,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="{{ asset('storage/home-page') }}/assets/images/f2.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/jag.jpeg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -244,7 +244,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="{{ asset('storage/home-page') }}/assets/images/f3.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/kan.jpeg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -264,7 +264,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="{{ asset('storage/home-page') }}/assets/images/f4.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/ub.jpeg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -284,7 +284,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="{{ asset('storage/home-page') }}/assets/images/f5.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/ken.jpeg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -304,11 +304,11 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="{{ asset('storage/home-page') }}/assets/images/f6.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/cab.jpeg" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Sukun
+                cabai
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
@@ -335,7 +335,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="{{ asset('storage/home-page') }}/assets/images/about-img.png" alt="">
+            <img src="{{ asset('storage/home-page') }}/assets/images/about-img.jpeg" alt="">
           </div>
         </div>
         <div class="col-md-6">
