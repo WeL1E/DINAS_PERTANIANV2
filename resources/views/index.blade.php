@@ -8,7 +8,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="{{ asset('storage/home-page') }}/assets/images/fevicon.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -17,17 +17,17 @@
 
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="{{ asset('storage/home-page') }}/assets/css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
 
   <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="{{ asset('storage/home-page') }}/assets/css/font-awesome.min.css" rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="{{ asset('storage/home-page') }}/assets/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="{{ asset('storage/home-page') }}/assets/css/responsive.css" rel="stylesheet" />
 
 </head>
 
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-md-7">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="{{ asset('storage/home-page') }}/assets/images/slider-img.png" alt="">
                   </div>
                 </div>
               </div>
@@ -141,7 +141,7 @@
                 </div>
                 <div class="col-md-7">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="{{ asset('storage/home-page') }}/assets/images/slider-img.png" alt="">
                   </div>
                 </div>
               </div>
@@ -171,17 +171,17 @@
                 </div>
                 <div class="col-md-7">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="{{ asset('storage/home-page') }}/assets/images/slider-img.png" alt="">
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <ol class="carousel-indicators">
+        {{-- <ol class="carousel-indicators">
           <li data-target="#customCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#customCarousel" data-slide-to="1"></li>
-          <li data-target="#customCarousel" data-slide-to="2"></li>
+          <li data-target="#customCarousel" data-slide-to="2"></li> --}}
         </ol>
       </div>
     </section>
@@ -190,7 +190,7 @@
 
   <!-- furniture section -->
 
-  <section class="furniture_section layout_padding">
+  {{-- <section class="furniture_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -323,7 +323,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <!-- end furniture section -->
 
@@ -335,7 +335,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="{{ asset('storage/home-page') }}/assets/images/about-img.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -372,7 +372,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/b1.jpg" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/b1.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -390,7 +390,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/b2.jpg" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/b2.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -408,7 +408,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/b3.jpg" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/b3.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -445,7 +445,7 @@
               <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src="{{ asset('storage/home-page') }}/assets/images/client.jpg" alt="" />
                   </div>
                   <div class="detail-box">
                     <div class="name">
@@ -469,7 +469,7 @@
               <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src="{{ asset('storage/home-page') }}/assets/images/client.jpg" alt="" />
                   </div>
                   <div class="detail-box">
                     <div class="name">
@@ -493,7 +493,7 @@
               <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
+                    <img src="{{ asset('storage/home-page') }}/assets/images/client.jpg" alt="" />
                   </div>
                   <div class="detail-box">
                     <div class="name">
@@ -513,7 +513,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel_btn-container">
+        {{-- <div class="carousel_btn-container">
           <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
             <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
             <span class="sr-only">Previous</span>
@@ -522,7 +522,7 @@
             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> --}}
       </div>
     </div>
   </section>
@@ -530,7 +530,7 @@
   <!-- end client section -->
 
   <!-- contact section -->
-  <section class="contact_section  long_section">
+  {{-- <section class="contact_section  long_section">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -570,7 +570,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
   <!-- end contact section -->
 
   <!-- info section -->
@@ -598,7 +598,7 @@
         </a>
       </div>
 
-      <div class="info_top ">
+      {{-- <div class="info_top ">
         <div class="row ">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="info_links">
@@ -621,22 +621,22 @@
               </h5>
               <div class="post_box">
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                  <img src="{{ asset('storage/home-page') }}/assets/images/f1.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                  <img src="{{ asset('storage/home-page') }}/assets/images/f2.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                  <img src="{{ asset('storage/home-page') }}/assets/images/f3.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
+                  <img src="{{ asset('storage/home-page') }}/assets/images/f4.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                  <img src="{{ asset('storage/home-page') }}/assets/images/f5.png" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="images/f6.png" alt="">
+                  <img src="{{ asset('storage/home-page') }}/assets/images/f6.png" alt="">
                 </div>
               </div>
             </div>
@@ -670,7 +670,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
   </section>
   <!-- end info_section -->
 
