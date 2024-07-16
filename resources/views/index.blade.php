@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Edgecut</title>
+  <title>We_FARM</title>
 
 
   <!-- bootstrap core css -->
@@ -39,7 +39,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="index.html">
           <span>
-            Edgecut
+            We_FARM
           </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,13 +50,13 @@
           <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.html"> Tentang</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="furniture.html">Furnitures</a>
+                <a class="nav-link" href="furniture.html">Galeri</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">Blog</a>
@@ -93,18 +93,18 @@
                 <div class="col-md-5">
                   <div class="detail-box">
                     <h1>
-                      For All Your <br>
-                      Furniture Needs
+                      Selamat Datang di<br>
+                      We_Farm
                     </h1>
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
-                        Contact Us
+                        Hubungi kami
                       </a>
                       <a href="" class="btn2">
-                        About Us
+                        Tentang kami
                       </a>
                     </div>
                   </div>
@@ -181,8 +181,8 @@
         {{-- <ol class="carousel-indicators">
           <li data-target="#customCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#customCarousel" data-slide-to="1"></li>
-          <li data-target="#customCarousel" data-slide-to="2"></li> --}}
-        </ol>
+          <li data-target="#customCarousel" data-slide-to="2"></li>
+        </ol> --}}
       </div>
     </section>
     <!-- end slider section -->
@@ -190,11 +190,11 @@
 
   <!-- furniture section -->
 
-  {{-- <section class="furniture_section layout_padding">
+  <section class="furniture_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Our Furniture
+          Harga
         </h2>
         <p>
           which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't an
@@ -204,19 +204,19 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f1.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/f1.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                brown Chair Design
+                Padi
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
                   <span>$</span> 100.00
                 </h6>
-                <a href="">
+                {{-- <a href="">
                   Buy Now
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
@@ -224,19 +224,19 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f2.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/f2.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Double Bed Design
+                Jagung
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
                   <span>$</span> 200.00
                 </h6>
-                <a href="">
+                {{-- <a href="">
                   Buy Now
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
@@ -244,19 +244,19 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f3.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/f3.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                House Chair Design
+                Kangkung
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
                   <span>$</span> 200.00
                 </h6>
-                <a href="">
+                {{-- <a href="">
                   Buy Now
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
@@ -264,19 +264,19 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f4.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/f4.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                brown Table Design
+                Ubi
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
                   <span>$</span> 100.00
                 </h6>
-                <a href="">
+                {{-- <a href="">
                   Buy Now
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
@@ -284,19 +284,19 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f5.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/f5.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Blue Chair Design
+                Kentang
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
                   <span>$</span> 200.00
                 </h6>
-                <a href="">
+                {{-- <a href="">
                   Buy Now
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
@@ -304,26 +304,26 @@
         <div class="col-md-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/f6.png" alt="">
+              <img src="{{ asset('storage/home-page') }}/assets/images/f6.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Brown Table Design
+                Sukun
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
                   <span>$</span> 200.00
                 </h6>
-                <a href="">
+                {{-- <a href="">
                   Buy Now
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section> --}}
+  </section>
 
   <!-- end furniture section -->
 
@@ -342,15 +342,15 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+                Tentang Kami
               </h2>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
             </p>
-            <a href="">
+            {{-- <a href="">
               Read More
-            </a>
+            </a> --}}
           </div>
         </div>
       </div>
@@ -365,7 +365,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Latest Blog
+          Berita
         </h2>
       </div>
       <div class="row">
@@ -435,7 +435,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Testimonial
+          Perakit
         </h2>
       </div>
       <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
