@@ -67,7 +67,7 @@
             </ul>
           </div>
           <div class="quote_btn-container">
-            <a href="">
+            <a href="{{ url('/admin') }}">
               <span>
                 Login
               </span>
@@ -197,7 +197,7 @@
           Harga
         </h2>
         <p>
-          which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't an
+          Informasi harga ini dikumpulkan dari berbagai sumber yang terpercaya, seperti pasar tradisional, gudang, dan distributor.
         </p>
       </div>
       <div class="row">
