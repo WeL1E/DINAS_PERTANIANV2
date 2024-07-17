@@ -37,7 +37,7 @@
     <!-- header section strats -->
     <header class="header_section long_section px-0">
       <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="{{ url('/') }}">
           <span>
             We_FARM
           </span>
@@ -50,19 +50,19 @@
           <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ url('/') }}">Beranda <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> Tentang</a>
+                <a class="nav-link" href="{{ url('/about') }}"> Tentang</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="furniture.html">Galeri</a>
+                <a class="nav-link" href="{{ url('/furniture') }}">Galeri</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
               </li>
             </ul>
           </div>
