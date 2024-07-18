@@ -1,3 +1,10 @@
+@php
+$site_name = get_setting_value('_site_name');
+$site_desc = get_setting_data('_site_description');
+$git = get_setting_dataG('_GitHub');
+$loc = get_setting_dataL('_location');
+@endphp
+
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +20,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>We_FARM</title>
+  <title>{{ $site_name }}</title>
 
 
   <!-- bootstrap core css -->
@@ -39,7 +46,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="{{ url('/') }}">
           <span>
-            We_FARM
+            {{ $site_name }}
           </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,16 +60,10 @@
                 <a class="nav-link" href="{{ url('/') }}">Beranda <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/about') }}"> Tentang</a>
+                <a class="nav-link" href="{{ url('/about') }}">Tentang</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/furniture') }}">Galeri</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
+                <a class="nav-link" href="{{ url('/contact') }}">Hubungi!</a>
               </li>
             </ul>
           </div>
@@ -73,11 +74,11 @@
               </span>
               <i class="fa fa-user" aria-hidden="true"></i>
             </a>
-            <form class="form-inline">
+            {{-- <form class="form-inline">
               <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
-            </form>
+            </form> --}}
           </div>
         </div>
       </nav>
@@ -93,11 +94,10 @@
                 <div class="col-md-5">
                   <div class="detail-box">
                     <h1>
-                      Selamat Datang di<br>
-                      We_Farm
+                      {{ $site_name }}
                     </h1>
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                      {{ $site_desc }}
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -232,7 +232,7 @@
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
-                  <span>$</span> 200.00
+                  <span>$</span> 20.00
                 </h6>
                 {{-- <a href="">
                   Buy Now
@@ -252,7 +252,7 @@
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
-                  <span>$</span> 200.00
+                  <span>$</span> 2.00
                 </h6>
                 {{-- <a href="">
                   Buy Now
@@ -272,7 +272,7 @@
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
-                  <span>$</span> 100.00
+                  <span>$</span> 3.00
                 </h6>
                 {{-- <a href="">
                   Buy Now
@@ -292,7 +292,7 @@
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
-                  <span>$</span> 200.00
+                  <span>$</span> 8.00
                 </h6>
                 {{-- <a href="">
                   Buy Now
@@ -312,7 +312,7 @@
               </h5>
               <div class="price_box">
                 <h6 class="price_heading">
-                  <span>$</span> 200.00
+                  <span>$</span> 10.00
                 </h6>
                 {{-- <a href="">
                   Buy Now
@@ -335,7 +335,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="{{ asset('storage/home-page') }}/assets/images/about-img.jpeg" alt="">
+            <img src="{{ asset('storage/home-page') }}/assets/images/about-img.jpeg" alt="Thumbnail">
           </div>
         </div>
         <div class="col-md-6">
@@ -345,9 +345,7 @@
                 Tentang Kami
               </h2>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
-            </p>
+            Visi kami: Menjadi dinas pertanian yang maju, mandiri, dan berkelanjutan untuk mewujudkan ketahanan pangan dan kesejahteraan petani.
             {{-- <a href="">
               Read More
             </a> --}}
@@ -361,7 +359,7 @@
 
   <!-- blog section -->
 
-  <section class="blog_section layout_padding">
+  {{-- <section class="blog_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -425,13 +423,13 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <!-- end blog section -->
 
   <!-- client section -->
 
-  <section class="client_section layout_padding-bottom">
+  {{-- <section class="client_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -512,7 +510,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> --}}
         {{-- <div class="carousel_btn-container">
           <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
             <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
@@ -523,9 +521,9 @@
             <span class="sr-only">Next</span>
           </a>
         </div> --}}
-      </div>
+      {{-- </div>
     </div>
-  </section>
+  </section> --}}
 
   <!-- end client section -->
 
@@ -578,22 +576,22 @@
 
     <div class="container">
       <div class="contact_nav">
-        <a href="">
+        <a href="https://github.com/WeL1E/DINAS_PERTANIANV2">
           <i class="fa fa-phone" aria-hidden="true"></i>
           <span>
-            Call : +01 123455678990
+            GitHub  : {{ $git }}
           </span>
         </a>
         <a href="">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           <span>
-            Email : demo@gmail.com
+            Email : wefarm356547@gmaail.com
           </span>
         </a>
         <a href="">
           <i class="fa fa-map-marker" aria-hidden="true"></i>
           <span>
-            Location
+            {{ $loc }}
           </span>
         </a>
       </div>
@@ -679,9 +677,7 @@
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-        Distribution <a href="https://themewagon.com">ThemeWagon</a>
+        &copy; <span id="displayYear"></span> All Rights Reserved By {{ $site_name }}
       </p>
     </div>
   </footer>
