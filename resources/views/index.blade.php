@@ -100,10 +100,10 @@ $loc = get_setting_dataL('_location');
                       {{ $site_desc }}
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="{{ url('/contact') }}" class="btn1">
                         Hubungi kami
                       </a>
-                      <a href="" class="btn2">
+                      <a href="{{ url('/about') }}" class="btn2">
                         Tentang kami
                       </a>
                     </div>
